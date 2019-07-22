@@ -20,7 +20,7 @@ while True:
 
 	#number = input("Command: ")
 
-	if (sys.argvv[1] == "1"):
+	if (sys.argv[1] == "1"):
 
 		print("""
 		Enter '1' to see all users.
@@ -162,7 +162,7 @@ while True:
 				print("Invalid command. Try again.")
 
 
-	elif (sys.argvv[1] == "2"):
+	elif (sys.argv[1] == "2"):
 
 		while True:
 
